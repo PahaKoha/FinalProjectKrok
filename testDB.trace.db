@@ -1,0 +1,4 @@
+2023-11-30 20:45:15.760820+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "CANDIDATE" уже существует
+Table "CANDIDATE" already exists; SQL statement:
+CREATE TABLE candidate (id  IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, surname VARCHAR(100) NOT NULL, age INT NOT NULL, political_experience INT NOT NULL, election_program VARCHAR(50000),PRIMARY KEY (id)) [42101-224]
